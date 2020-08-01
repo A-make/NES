@@ -26,20 +26,20 @@ Install: `pip install -r requirements.txt`
 
 **Natural Evolution Strategies (NES)** is essentially an evolutionary inspired optimization algorithm that can be used for adjusting the parameters of an ANN. It works by creating a fixed standard deviation Gaussian distribution around some _current_ parameter set, and testing the fitness of a set of parameters within this distribution. The _current_ parameters are updated each iteration. The optimization process is similar to hill climbing, but uses instead a population of agents where each agent represents a single parameter vector in the set.
 
-## Background Reading
+### Background Reading
 
 - [A Visual Guide to Evolution Strategies](http://blog.otoro.net/2017/10/29/visual-evolution-strategies/)
 - [Evolving Stable Strategies](http://blog.otoro.net/2017/11/12/evolving-stable-strategies/)
 - [OpenAI: Evolution Strategies as a Scalable Alternative to Reinforcement Learning](https://openai.com/blog/evolution-strategies/)
 
-## Inspiration
+### Inspiration
 
 - [JorgeCeja/evolution-strategies](https://github.com/JorgeCeja/evolution-strategies)
 - [karpathy/nes.py](https://gist.github.com/karpathy/77fbb6a8dac5395f1b73e7a89300318d)  
 - [flyman3046/es-CartPole.py](https://gist.github.com/flyman3046/d37680eeaac469a4030c690ae65b0419)
 - [hardmaru/estools](https://github.com/hardmaru/estool)
 
-## Implementation
+### Implementation
 
 - numpy
 - [alirezamika/evostra](https://github.com/alirezamika/evostra)
